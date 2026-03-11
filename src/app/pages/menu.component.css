@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  color: #555;
+}
+
+.layout {
+  display: flex;
+  gap: 24px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  background: none;
+  text-align: left;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #333;
+}
+
+.sidebar button:hover {
+  background-color: #eee;
+}
+
+.sidebar button.active {
+  background-color: #e0e0e0;
+  font-weight: 600;
+}
+
+.items {
+  flex: 1;
+}
+
+.items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.card label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.card input[type='checkbox'] {
+  margin-top: 3px;
+  width: 16px;
+  height: 16px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 0.85rem;
+  color: #666;
+}
