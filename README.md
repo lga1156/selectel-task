@@ -16,4 +16,4 @@
 
 #### Демо
 
-[https://lga1156.github.io/selectel-test/](https://lga1156.github.io/selectel-test/)
+[**Try it**](https://lga1156.github.io/selectel-task/)
